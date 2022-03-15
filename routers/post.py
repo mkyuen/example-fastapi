@@ -25,8 +25,6 @@ def find_index_post(id):
         if p['id'] == id:
             return i
 
-
-
 @router.get("/")
 def get_posts(user_id: str = Depends(oauth2.get_current_user)):
     return {"data": my_posts}
