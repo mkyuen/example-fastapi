@@ -1,8 +1,5 @@
-from fastapi import FastAPI, Response, status, HTTPException, APIRouter, Depends
-from fastapi.params import Body
-from pydantic import BaseModel
+from fastapi import Response, status, HTTPException, APIRouter, Depends
 from random import randrange
-from typing import Optional
 from app import oauth2, schemas
 
 router = APIRouter(
