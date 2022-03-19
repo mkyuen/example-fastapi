@@ -1,3 +1,3 @@
 # example-fastapi
 
-Fastapi sample
+FastAPI samples
