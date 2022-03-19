@@ -112,3 +112,4 @@ def test_delete_one_post_non_exist(authorized_client, test_user):
     res = authorized_client.delete("/posts/8888")
     assert res.status_code == 404
 
+
