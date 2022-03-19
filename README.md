@@ -2,3 +2,4 @@
 
 FastAPI samples
 
+posts
